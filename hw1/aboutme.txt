@@ -1,0 +1,15 @@
+Your name: Cagan Sevencan
+Your student ID: 012305527
+Your major: Computer Science
+Your preferred email address: cagansvncn@gmail.com
+Check one: [ x] Undergraduate, [ ] Graduate, [ ] Open university
+Graduating senior? [ ] Yes, [ x] No
+Repeating the class? [ ] Yes, [ x] No
+Place and semester where you took a programming course in Java:  SJSU
+Course number and grade received: 49J B+
+Place and semester where you took a course in data structures: Diablo Valley College
+Course number and grade received: CS210 A
+Time it took you to answer the two questions below: 2 hours
+Did you ask anyone for help? [ ] Yes, [ x] No
+Preferred section (if adding): [ ] 3, [ ] 4, [ ] 6
+Other acceptable sections (if adding):
