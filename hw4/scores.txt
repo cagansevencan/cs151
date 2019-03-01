@@ -1,0 +1,389 @@
+Student: sevencanc
+ArraySetTest passes (max 8): 6
+BitSetTest passes (max 8): 2
+Provides SetTest.java with at least 4 test cases (max 4): 0
+No CheckStyle issues (max 2): 1
+Only Java files checked in (max 2): 2
+At least 3 git checkins (max 2): 2
+--------------------------------------------------
+ArraySetTest
+[36m.[0m
+[36m+--[0m [36mJUnit Jupiter[0m [32m[OK][0m
+[36m'--[0m [36mJUnit Vintage[0m [32m[OK][0m
+[36m  '--[0m [36mArraySetTest[0m [32m[OK][0m
+[36m    +--[0m [34melementOrderInsert[0m [32m[OK][0m
+[36m    +--[0m [31marraySize[0m [31m[X][0m [31mexpected:<10> but was:<20>[0m
+[36m    +--[0m [31melementOrderRemove[0m [31m[X][0m [31mexpected:<80> but was:<0>[0m
+[36m    +--[0m [34mgrowSet[0m [32m[OK][0m
+[36m    +--[0m [34mposAndNeg[0m [32m[OK][0m
+[36m    +--[0m [34msetAndClear[0m [32m[OK][0m
+[36m    '--[0m [34mtestOneElement[0m [32m[OK][0m
+
+Failures (2):
+  JUnit Vintage:ArraySetTest:arraySize
+    MethodSource [className = 'ArraySetTest', methodName = 'arraySize', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<10> but was:<20>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       ArraySetTest.arraySize(ArraySetTest.java:128)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+  JUnit Vintage:ArraySetTest:elementOrderRemove
+    MethodSource [className = 'ArraySetTest', methodName = 'elementOrderRemove', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<80> but was:<0>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       ArraySetTest.elementOrderRemove(ArraySetTest.java:67)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+
+Test run finished after 76 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         2 tests failed          ]
+
+-------------------------------------------------
+BitSetTest
+[36m.[0m
+[36m+--[0m [36mJUnit Jupiter[0m [32m[OK][0m
+[36m'--[0m [36mJUnit Vintage[0m [32m[OK][0m
+[36m  '--[0m [36mBitSetTest[0m [32m[OK][0m
+[36m    +--[0m [31marrayTest[0m [31m[X][0m [31mexpected:<100> but was:<0>[0m
+[36m    +--[0m [31mtestBits[0m [31m[X][0m [31mexpected:<4> but was:<1>[0m
+[36m    +--[0m [34mgrowSet[0m [32m[OK][0m
+[36m    +--[0m [31mposAndNeg[0m [31m[X][0m [31m-1[0m
+[36m    +--[0m [31msetAndClear[0m [31m[X][0m [31mexpected:<150> but was:<-2147483648>[0m
+[36m    +--[0m [31marrayTestNeg[0m [31m[X][0m [31mexpected:<20> but was:<10>[0m
+[36m    '--[0m [31mtestOneElement[0m [31m[X][0m [31mexpected:<100> but was:<-2147483648>[0m
+
+Failures (6):
+  JUnit Vintage:BitSetTest:arrayTest
+    MethodSource [className = 'BitSetTest', methodName = 'arrayTest', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<100> but was:<0>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       BitSetTest.arrayTest(BitSetTest.java:111)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+  JUnit Vintage:BitSetTest:testBits
+    MethodSource [className = 'BitSetTest', methodName = 'testBits', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<4> but was:<1>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       BitSetTest.testBits(BitSetTest.java:36)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+  JUnit Vintage:BitSetTest:posAndNeg
+    MethodSource [className = 'BitSetTest', methodName = 'posAndNeg', methodParameterTypes = '']
+    => java.lang.ArrayIndexOutOfBoundsException: -1
+       BitSet.set(BitSet.java:46)
+       BitSetTest.posAndNeg(BitSetTest.java:89)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+       org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+       org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+       [...]
+  JUnit Vintage:BitSetTest:setAndClear
+    MethodSource [className = 'BitSetTest', methodName = 'setAndClear', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<150> but was:<-2147483648>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       BitSetTest.setAndClear(BitSetTest.java:49)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+  JUnit Vintage:BitSetTest:arrayTestNeg
+    MethodSource [className = 'BitSetTest', methodName = 'arrayTestNeg', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<20> but was:<10>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       BitSetTest.arrayTestNeg(BitSetTest.java:130)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+  JUnit Vintage:BitSetTest:testOneElement
+    MethodSource [className = 'BitSetTest', methodName = 'testOneElement', methodParameterTypes = '']
+    => java.lang.AssertionError: expected:<100> but was:<-2147483648>
+       org.junit.Assert.fail(Assert.java:88)
+       org.junit.Assert.failNotEquals(Assert.java:834)
+       org.junit.Assert.assertEquals(Assert.java:645)
+       org.junit.Assert.assertEquals(Assert.java:631)
+       BitSetTest.testOneElement(BitSetTest.java:19)
+       sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+       [...]
+
+Test run finished after 79 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         6 tests failed          ]
+
+-------------------------------------------------
+SetTest
+SetTest.java:2: error: package org.testng.annotations does not exist
+import org.testng.annotations.Test;
+                             ^
+SetTest.java:6: error: cannot find symbol
+    @Test public void setAndClear()
+     ^
+  symbol:   class Test
+  location: class SetTest
+SetTest.java:18: error: cannot find symbol
+    @Test public void elementOrderRemove()
+     ^
+  symbol:   class Test
+  location: class SetTest
+SetTest.java:34: error: cannot find symbol
+    @Test public void testOneElement()
+     ^
+  symbol:   class Test
+  location: class SetTest
+SetTest.java:46: error: cannot find symbol
+    @Test public void testBits()
+     ^
+  symbol:   class Test
+  location: class SetTest
+5 errors
+Feb 28, 2019 12:44:07 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+WARNING: TestEngine with ID 'junit-jupiter' failed to discover tests
+org.junit.platform.commons.util.PreconditionViolationException: Could not load class with name: SetTest
+	at org.junit.platform.engine.discovery.ClassSelector.lambda$getJavaClass$0(ClassSelector.java:73)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.junit.platform.engine.discovery.ClassSelector.getJavaClass(ClassSelector.java:72)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.lambda$resolve$3(DiscoverySelectorResolver.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolve(DiscoverySelectorResolver.java:68)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolveSelectors(DiscoverySelectorResolver.java:50)
+	at org.junit.jupiter.engine.JupiterTestEngine.discover(JupiterTestEngine.java:61)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:130)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:117)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.executeTests(ConsoleTestExecutor.java:65)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.lambda$execute$0(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.replaceThreadContextClassLoaderAndInvoke(CustomContextClassLoaderExecutor.java:41)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.invoke(CustomContextClassLoaderExecutor.java:31)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.execute(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.ConsoleLauncher.executeTests(ConsoleLauncher.java:84)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:74)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:47)
+	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:39)
+
+Feb 28, 2019 12:44:07 AM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
+org.junit.platform.commons.util.PreconditionViolationException: Could not load class with name: SetTest
+	at org.junit.platform.engine.discovery.ClassSelector.lambda$getJavaClass$0(ClassSelector.java:73)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.junit.platform.engine.discovery.ClassSelector.getJavaClass(ClassSelector.java:72)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.discovery.ClassSelectorResolver.resolve(ClassSelectorResolver.java:29)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.collectTestClasses(VintageDiscoverer.java:64)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:51)
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:61)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:130)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:117)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.executeTests(ConsoleTestExecutor.java:65)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.lambda$execute$0(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.replaceThreadContextClassLoaderAndInvoke(CustomContextClassLoaderExecutor.java:41)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.invoke(CustomContextClassLoaderExecutor.java:31)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.execute(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.ConsoleLauncher.executeTests(ConsoleLauncher.java:84)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:74)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:47)
+	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:39)
+
+[36m.[0m
+
+Test run finished after 2 ms
+[         0 containers found      ]
+[         0 containers skipped    ]
+[         0 containers started    ]
+[         0 containers aborted    ]
+[         0 containers successful ]
+[         0 containers failed     ]
+[         0 tests found           ]
+[         0 tests skipped         ]
+[         0 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         0 tests failed          ]
+
+-------------------------------------------------
+import static org.junit.jupiter.api.Assertions.*;
+import org.testng.annotations.Test;
+
+public class SetTest
+{
+    @Test public void setAndClear()
+    {
+        IntSet set = new ArraySet();
+        set.set(100);
+        set.set(150);
+        set.clear(100);
+        assertEquals(150, set.min());
+        assertEquals(150, set.max());
+        assertEquals(1, set.size());
+        assertTrue(set.test(150));
+        assertFalse(set.test(100));
+    }
+    @Test public void elementOrderRemove()
+    {
+        ArraySet set = new ArraySet();
+        set.set(40);
+        set.set(110);
+        set.set(90);
+        set.set(70);
+        set.set(100);
+        set.set(80);
+        set.clear(110);
+        assertEquals(40, set.elements[0]);
+        assertEquals(80, set.elements[1]);
+        assertEquals(90, set.elements[2]);
+        assertEquals(100, set.largest);
+    }
+
+    @Test public void testOneElement()
+    {
+        IntSet set = new BitSet();
+        set.set(100);
+        set.set(102);
+        //assertEquals(100, set.min());
+        //assertEquals(100, set.max());
+        //assertEquals(1, set.size());
+        //assertTrue(set.test(100));
+        //assertFalse(set.test(99));
+    }
+
+    @Test public void testBits()
+    {
+        BitSet set = new BitSet();
+        set.set(100);
+        set.set(102);
+        set.clear(100);
+        assertEquals(4, set.elements[0]);
+        assertEquals(100, set.start);
+    }
+}
+-------------------------------------------------
+Starting audit...
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:76:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:80:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/ArraySet.java:84:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:56:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:65:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:69:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.6TBYPiLP/BitSet.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 15 errors.
+--------------------------------------------------
+Submitted files other than Java
+scores.txt
+--------------------------------------------------
+commit 025ce149f784475d1b3f59c5560440cfd4cc551d
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Tue Feb 26 01:52:45 2019 -0800
+
+    Added
+
+:000000 100644 0000000 876a8fa A	hw4/ArraySet.java
+:000000 100644 0000000 e62b59f A	hw4/BitSet.java
+:000000 100644 0000000 4575ae1 A	hw4/IntSet.java
+:000000 100644 0000000 d7d82b5 A	hw4/SetTest.java
+
+commit d1cde015a1b81fac68a691845bcbd9abed34f86f
+Author: cagansevencan <36283663+cagansevencan@users.noreply.github.com>
+Date:   Thu Feb 21 15:59:18 2019 -0800
+
+    Delete SliderDemo.java
+
+:100644 000000 00df413 0000000 D	Lab9/SliderDemo.java
+
+commit 89acba9b63f376b01bef208e51778382e7682675
+Author: cagansevencan <36283663+cagansevencan@users.noreply.github.com>
+Date:   Thu Feb 21 15:59:03 2019 -0800
+
+    Add files via upload
+
+:000000 100644 0000000 00df413 A	lab9/SliderDemo.java
+
+commit 895db6d28c5d8904c92b6401fd3a201a1d2768f2
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Feb 21 15:55:45 2019 -0800
+
+    Added
+
+:000000 100644 0000000 00df413 A	Lab9/SliderDemo.java
