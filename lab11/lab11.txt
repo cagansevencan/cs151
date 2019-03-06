@@ -1,0 +1,11 @@
+Scanner is not an example of the Decorator pattern, scanner doesn't enhance the reader class.
+
+Buffered reader is a reader. you can make a scanner from a reader. Is a Scanner a reader? if its a reader then it enhances, decorates must implemetns the same interface, check the API
+
+Component Border
+
+Concrete Component EtchedBorder
+
+Decorator titleBorder
+
+Method paintBorder
