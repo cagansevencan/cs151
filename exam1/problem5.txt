@@ -1,0 +1,7 @@
+They form a Strategy pattern, since we allow the client to supply a specific algorithm for their need.
+As we see in the first program, it only uses day/month/year to calculate everything it creates problems when using the daysfrom plus days methods and helper functions do all the dirty work.
+Some months have 30 days or 29/28 which creates problems. We fix it by using Julian day number, even then we create conversion problems required for each access of a year, month, or date value.
+In the last program using Strategy pattern it allows us to choose between traditional way or using Julian method to select between conversions.
+
+
+There could be three different implementations of the Day class which each version would present the same public interface. It would also hides the implementation details in the private parts.

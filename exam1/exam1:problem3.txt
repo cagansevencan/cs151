@@ -1,0 +1,13 @@
+Name in Design Pattern |   Actual Name
+=====================================================
+Primitive              |   LineItem
+Composite              |   Does not apply since its not contained in the Java API
+Leaf                   |   Product
+method()               |  GetPrice()
+
+Name in Design Pattern |   Actual Name
+=====================================================
+Component              |   LineItem
+ConcreteComponent      |   Does not apply also since it uses LineItem as an interface
+Decorator              |   Discounted Item
+method()               |   getPrice() - applies discount
