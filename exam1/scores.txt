@@ -1,0 +1,51 @@
+Student: sevencanc
+Problem 1
+An inheritance relationship  (max. 2 points): 2
+An 1 : n aggregation (max. 2 points): 0
+An aggregation that is not 1 : n  (max. 2 points):0 
+A dependency relationship, not aggregation (max. 2 points):2
+An attribute (max. 2 points): 0
+
+Problem 2
+6 object nodes, including seq1, seq2, seq (max. 2 points): 0
+<<create>> from seq1 to seq (max. 2 point): 0
+next from IntSeqTest to seq (max. 1 point):0
+next from seq to seq1, hasNext, next from seq1 to seq1.iter  (max. 2 points):0
+next from IntSeqTest to seq (max. 1 point):0
+next from seq to seq2, hasNext, next from seq2 to seq2.iter  (max. 2 points):0
+
+Problem 3
+Primitive LineItem, Leaf any line item  (max. 2 points):0
+Composite Bundle (max. 1 point):0
+method toString, getPrice (max. 2 points):0
+Component LineItem, ConcreteComponent any line item (max. 2 points):0
+Decorator DiscountedItem (max. 1 point):0
+method toString, getPrice (max. 2 points):0
+
+Problem 4
+Calls next() (max. 2 points):0
+Calls p.test (max. 2 points):0
+Returns lambda or class instance (max. 2 points):0
+Handles null (max. 1 point):0
+Tester (max. 3 points):0
+No work
+
+Problem 5
+No strategy (max. 2 points):0
+No common interface (max. 3 points):0
+Make them implement common interface (max. 2 points):0
+Any call to interface method polymporphic (max. 3 points):0
+There are already three different implementations with the same public interface.
+
+Multiple git commits (max. 4 points):0
+
+commit 3837c8cb3bb46a417204f4e7f79d4402bdb4b78e
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Mar 7 16:17:12 2019 -0800
+
+    Added
+
+:000000 100644 0000000 14a77ce A	exam1/exam1:classes.png
+:000000 100644 0000000 08a95bf A	exam1/exam1:problem3.txt
+:000000 100644 0000000 77a2b93 A	exam1/exam1:sequence.png
+:000000 100644 0000000 e356126 A	exam1/problem5.txt
