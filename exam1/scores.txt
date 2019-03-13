@@ -15,12 +15,12 @@ next from IntSeqTest to seq (max. 1 point):0
 next from seq to seq2, hasNext, next from seq2 to seq2.iter  (max. 2 points):0
 
 Problem 3
-Primitive LineItem, Leaf any line item  (max. 2 points):0
+Primitive LineItem, Leaf any line item  (max. 2 points):2
 Composite Bundle (max. 1 point):0
-method toString, getPrice (max. 2 points):0
-Component LineItem, ConcreteComponent any line item (max. 2 points):0
-Decorator DiscountedItem (max. 1 point):0
-method toString, getPrice (max. 2 points):0
+method toString, getPrice (max. 2 points):2
+Component LineItem, ConcreteComponent any line item (max. 2 points):1
+Decorator DiscountedItem (max. 1 point):1
+method toString, getPrice (max. 2 points):2
 
 Problem 4
 Calls next() (max. 2 points):0
