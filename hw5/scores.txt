@@ -1,0 +1,643 @@
+Student: sevencanc
+ArraySetTest passes (max 5, -1 per failure, min 0): 0
+BitSetTest passes (max 5, -1 per failure, min 0): 0
+IntSeqTest passes (max 5, -1 per failure, min 0): 0
+IntSequence.next returns lambda expressions (max 2): 2 
+Provides IteratorTest, SequenceTest with at least 3 test cases each (max 3):  0
+No CheckStyle issues (max 3): 2
+Clean submission directory (no .class, .metadata etc.) (max 3): 3
+At least 3 git checkins (max 3): 1
+--------------------------------------------------
+ArraySetTest
+./ArraySet.java:29: error: missing return statement
+        }
+        ^
+1 error
+.
++-- JUnit Jupiter [OK]
+| '-- ArraySetTest [OK]
+|   +-- iteratorVisitationOrder() [X] ArraySet
+|   +-- cmeTest() [X] ArraySet
+|   +-- concurrentMod1() [X] ArraySet
+|   +-- concurrentMod2() [X] ArraySet
+|   +-- concurrentMod3() [X] ArraySet
+|   +-- removeTest() [X] ArraySet
+|   +-- removeContract1() [X] ArraySet
+|   '-- removeContract2() [X] ArraySet
+'-- JUnit Vintage [OK]
+
+Failures (8):
+  JUnit Jupiter:ArraySetTest:iteratorVisitationOrder()
+    MethodSource [className = 'ArraySetTest', methodName = 'iteratorVisitationOrder', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.iteratorVisitationOrder(ArraySetTest.java:10)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:cmeTest()
+    MethodSource [className = 'ArraySetTest', methodName = 'cmeTest', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.cmeTest(ArraySetTest.java:51)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:concurrentMod1()
+    MethodSource [className = 'ArraySetTest', methodName = 'concurrentMod1', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.concurrentMod1(ArraySetTest.java:84)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:concurrentMod2()
+    MethodSource [className = 'ArraySetTest', methodName = 'concurrentMod2', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.concurrentMod2(ArraySetTest.java:95)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:concurrentMod3()
+    MethodSource [className = 'ArraySetTest', methodName = 'concurrentMod3', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.concurrentMod3(ArraySetTest.java:106)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:removeTest()
+    MethodSource [className = 'ArraySetTest', methodName = 'removeTest', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.removeTest(ArraySetTest.java:29)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:removeContract1()
+    MethodSource [className = 'ArraySetTest', methodName = 'removeContract1', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.removeContract1(ArraySetTest.java:65)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:ArraySetTest:removeContract2()
+    MethodSource [className = 'ArraySetTest', methodName = 'removeContract2', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: ArraySet
+       ArraySetTest.removeContract2(ArraySetTest.java:73)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+
+Test run finished after 92 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         8 tests found           ]
+[         0 tests skipped         ]
+[         8 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         8 tests failed          ]
+
+-------------------------------------------------
+BitSetTest
+./BitSet.java:32: error: missing return statement
+        }
+        ^
+1 error
+.
++-- JUnit Jupiter [OK]
+| '-- BitSetTest [OK]
+|   +-- iteratorVisitationOrder() [X] BitSet
+|   +-- concurrentMod1() [X] BitSet
+|   +-- concurrentMod2() [X] BitSet
+|   +-- concurrentMod3() [X] BitSet
+|   +-- removeTest() [X] BitSet
+|   +-- removeContract1() [X] BitSet
+|   '-- removeContract2() [X] BitSet
+'-- JUnit Vintage [OK]
+
+Failures (7):
+  JUnit Jupiter:BitSetTest:iteratorVisitationOrder()
+    MethodSource [className = 'BitSetTest', methodName = 'iteratorVisitationOrder', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.iteratorVisitationOrder(BitSetTest.java:11)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:concurrentMod1()
+    MethodSource [className = 'BitSetTest', methodName = 'concurrentMod1', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.concurrentMod1(BitSetTest.java:72)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:concurrentMod2()
+    MethodSource [className = 'BitSetTest', methodName = 'concurrentMod2', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.concurrentMod2(BitSetTest.java:83)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:concurrentMod3()
+    MethodSource [className = 'BitSetTest', methodName = 'concurrentMod3', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.concurrentMod3(BitSetTest.java:94)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:removeTest()
+    MethodSource [className = 'BitSetTest', methodName = 'removeTest', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.removeTest(BitSetTest.java:31)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:removeContract1()
+    MethodSource [className = 'BitSetTest', methodName = 'removeContract1', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.removeContract1(BitSetTest.java:53)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+  JUnit Jupiter:BitSetTest:removeContract2()
+    MethodSource [className = 'BitSetTest', methodName = 'removeContract2', methodParameterTypes = '']
+    => java.lang.NoClassDefFoundError: BitSet
+       BitSetTest.removeContract2(BitSetTest.java:61)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:513)
+       org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+       org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+       org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+       [...]
+
+Test run finished after 92 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[         7 tests found           ]
+[         0 tests skipped         ]
+[         7 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         7 tests failed          ]
+
+-------------------------------------------------
+IntSeqTest
+IntSeqTest.java:11: error: cannot find symbol
+      IntSequence seq = IntSequence.fromIterator(lst.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:11: error: cannot find symbol
+      IntSequence seq = IntSequence.fromIterator(lst.iterator());
+                        ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:22: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:22: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:24: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:24: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:25: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:40: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:40: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:42: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:42: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:43: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:56: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:56: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:58: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:58: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:59: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:71: error: cannot find symbol
+      IntSequence seq1 = () -> null;
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:73: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:73: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:74: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:85: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:85: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:86: error: cannot find symbol
+      IntSequence seq2 = () -> Integer.valueOf(0);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:87: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:102: error: cannot find symbol
+      IntSequence seq1 = () -> 1;
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:103: error: cannot find symbol
+      IntSequence seq2 = () -> 0;
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:104: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:116: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:116: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:118: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:118: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:119: error: cannot find symbol
+      IntSequence seq3 = seq1.alternate(seq2);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:120: error: cannot find symbol
+      IntSequence seq4 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:120: error: cannot find symbol
+      IntSequence seq4 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:121: error: cannot find symbol
+      IntSequence seq5 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:121: error: cannot find symbol
+      IntSequence seq5 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:122: error: cannot find symbol
+      IntSequence seq6 = seq4.alternate(seq5);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:138: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:138: error: cannot find symbol
+      IntSequence seq1 = IntSequence.fromIterator(lst1.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:140: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:140: error: cannot find symbol
+      IntSequence seq2 = IntSequence.fromIterator(lst2.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:142: error: cannot find symbol
+      IntSequence seq3 = IntSequence.fromIterator(lst3.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:142: error: cannot find symbol
+      IntSequence seq3 = IntSequence.fromIterator(lst3.iterator());
+                         ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:143: error: cannot find symbol
+      IntSequence seq = seq1.alternate(seq2).alternate(seq3);
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:161: error: cannot find symbol
+      IntSequence seq = IntSequence.fromIterator(lst.iterator());
+      ^
+  symbol:   class IntSequence
+  location: class IntSeqTest
+IntSeqTest.java:161: error: cannot find symbol
+      IntSequence seq = IntSequence.fromIterator(lst.iterator());
+                        ^
+  symbol:   variable IntSequence
+  location: class IntSeqTest
+47 errors
+Mar 09, 2019 2:40:35 PM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+WARNING: TestEngine with ID 'junit-jupiter' failed to discover tests
+org.junit.platform.commons.util.PreconditionViolationException: Could not load class with name: IntSeqTest
+	at org.junit.platform.engine.discovery.ClassSelector.lambda$getJavaClass$0(ClassSelector.java:73)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.junit.platform.engine.discovery.ClassSelector.getJavaClass(ClassSelector.java:72)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.lambda$resolve$3(DiscoverySelectorResolver.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolve(DiscoverySelectorResolver.java:68)
+	at org.junit.jupiter.engine.discovery.DiscoverySelectorResolver.resolveSelectors(DiscoverySelectorResolver.java:50)
+	at org.junit.jupiter.engine.JupiterTestEngine.discover(JupiterTestEngine.java:61)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:130)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:117)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.executeTests(ConsoleTestExecutor.java:65)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.lambda$execute$0(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.replaceThreadContextClassLoaderAndInvoke(CustomContextClassLoaderExecutor.java:41)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.invoke(CustomContextClassLoaderExecutor.java:31)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.execute(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.ConsoleLauncher.executeTests(ConsoleLauncher.java:84)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:74)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:47)
+	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:39)
+
+Mar 09, 2019 2:40:35 PM org.junit.platform.launcher.core.DefaultLauncher handleThrowable
+WARNING: TestEngine with ID 'junit-vintage' failed to discover tests
+org.junit.platform.commons.util.PreconditionViolationException: Could not load class with name: IntSeqTest
+	at org.junit.platform.engine.discovery.ClassSelector.lambda$getJavaClass$0(ClassSelector.java:73)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.junit.platform.engine.discovery.ClassSelector.getJavaClass(ClassSelector.java:72)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.junit.vintage.engine.discovery.ClassSelectorResolver.resolve(ClassSelectorResolver.java:29)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.collectTestClasses(VintageDiscoverer.java:64)
+	at org.junit.vintage.engine.discovery.VintageDiscoverer.discover(VintageDiscoverer.java:51)
+	at org.junit.vintage.engine.VintageTestEngine.discover(VintageTestEngine.java:61)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverEngineRoot(DefaultLauncher.java:130)
+	at org.junit.platform.launcher.core.DefaultLauncher.discoverRoot(DefaultLauncher.java:117)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.executeTests(ConsoleTestExecutor.java:65)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.lambda$execute$0(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.replaceThreadContextClassLoaderAndInvoke(CustomContextClassLoaderExecutor.java:41)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.invoke(CustomContextClassLoaderExecutor.java:31)
+	at org.junit.platform.console.tasks.ConsoleTestExecutor.execute(ConsoleTestExecutor.java:57)
+	at org.junit.platform.console.ConsoleLauncher.executeTests(ConsoleLauncher.java:84)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:74)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:47)
+	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:39)
+
+.
+
+Test run finished after 1 ms
+[         0 containers found      ]
+[         0 containers skipped    ]
+[         0 containers started    ]
+[         0 containers aborted    ]
+[         0 containers successful ]
+[         0 containers failed     ]
+[         0 tests found           ]
+[         0 tests skipped         ]
+[         0 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         0 tests failed          ]
+
+-------------------------------------------------
+IteratorTest
+-------------------------------------------------
+SequenceTest
+-------------------------------------------------
+cat: IteratorTest.java: No such file or directory
+-------------------------------------------------
+cat: SequenceTest.java: No such file or directory
+-------------------------------------------------
+Starting audit...
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:12: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:80:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:99:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:104:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/ArraySet.java:109:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:11: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:45:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:94:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.XQI3SLRa/BitSet.java:110:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 18 errors.
+--------------------------------------------------
+Submitted files other than Java
+scores.txt
+--------------------------------------------------
+commit 35c2b108bfa890cf76a42d365aad03c1ebfbf512
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Tue Mar 5 02:04:33 2019 -0800
+
+    Added
+
+:000000 100644 0000000 79eb7aa A	hw5/ArraySet.java
+:000000 100644 0000000 795e537 A	hw5/ArraySetTest.java
+:000000 100644 0000000 d41d696 A	hw5/BitSet.java
+:000000 100644 0000000 8f3b5ae A	hw5/BitSetTest.java
+:000000 100644 0000000 4575ae1 A	hw5/IntSet.java
+:000000 100644 0000000 dd20a04 A	hw5/SetTest.java
