@@ -1,79 +1,19 @@
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+import java.awt.Rectangle;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- This program implements an animation that moves
- a car shape.
+ *
+ * @author Cagan Sevencan
  */
-public class AnimationTester
-{
-    private static final int ICON_WIDTH = 400;
-    private static final int ICON_HEIGHT = 100;
-    private static final int CAR_WIDTH = 100;
-    public static void main(String[] args)
-    {
-        JFrame frame = new JFrame();
+public class AnimationTester {
+    public static void main(String[] args) {
 
-         MoveableIcon dogFile = new MoveableIcon("dog.png",100,0);
+        final int CAR_WIDTH = 160;
 
-        final MoveableShape shape
-                = new CarShape(200, 0, CAR_WIDTH);
-
-        final MoveableShape shape2
-                = new CarShape(0, 0, CAR_WIDTH);
-
-
-        final MoveableShape shape3 = new MoveableIcon("dog.png", 0, 0);
-        ShapeIcon icon3 = new ShapeIcon(shape3,ICON_WIDTH, ICON_HEIGHT);
-
-        final JLabel label3 = new JLabel(icon3);
-        frame.add(label3);
-
-
-        ShapeIcon icon = new ShapeIcon(shape,
-            ICON_WIDTH, ICON_HEIGHT);
-        ShapeIcon icon2 = new ShapeIcon(shape2,
-                ICON_WIDTH, ICON_HEIGHT);
-
-
-
-
-
-        final JLabel label = new JLabel(icon);
-        frame.setLayout(new FlowLayout());
-        frame.add(label);
-
-        final JLabel label2 = new JLabel(icon2);
-        frame.setLayout(new FlowLayout());
-        frame.add(label2);
-
-
-
-        final int DELAY = 100;
-        // Milliseconds between timer ticks
-        Timer t = new Timer(DELAY, event ->
-        {
-
-
-            shape.move();
-            shape2.move();
-            label.repaint();
-            label2.repaint();
-
-            shape3.move();
-            label3.repaint();
-
-
-
-
-        });
-        t.start();
-
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        List<MoveableShape> shapes = new ArrayList<>(); //List of moveable shapes
+        shapes.add(new BoxedShape(new CompoundShape(new BoxedShape(new CarShape(200, 20, CAR_WIDTH), 3),
+                new MoveableIcon("dog.png", 100, 10), new MoveableIcon("dog.png", 150, 100)), 0));
+        Animation.show(shapes, new BoundedMoveStrategy(new Rectangle(0, 0, 500, 200)), 600, 200);
     }
-
-
 }

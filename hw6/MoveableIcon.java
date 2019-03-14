@@ -3,10 +3,7 @@ import org.w3c.dom.css.Rect;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * Created by Tyler on 3/19/2017.
- * An icon that can be moved
- */
+
 public class MoveableIcon extends ImageIcon implements MoveableShape {
 
     private Rectangle bounds;
