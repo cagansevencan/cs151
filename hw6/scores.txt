@@ -1,0 +1,128 @@
+Student: sevencanc
+ShapeTest passes (max 20, -3 per failure, min 0): 20
+AnimationTester7 runs and shows boxed car and dogs (max 3): 1
+No CheckStyle issues (max 3): 2
+Clean submission directory (no .class, .metadata etc.) (max 3): 3
+At least 3 git checkins (max 3): 3
+--------------------------------------------------
+ShapeTest
+.
++-- JUnit Jupiter [OK]
+| '-- ShapeTest [OK]
+|   +-- testDrawnCompound() [OK]
+|   +-- testDogBounds() [OK]
+|   +-- testCarBounds() [OK]
+|   +-- testDrawnBox() [OK]
+|   +-- testSimpleMoveStrategy() [OK]
+|   +-- testMovedCompound() [OK]
+|   +-- testBoundedMoveStrategy() [OK]
+|   +-- testMovedBox() [OK]
+|   +-- testCompoundBounds() [OK]
+|   '-- testBoxedBounds() [OK]
+'-- JUnit Vintage [OK]
+
+Test run finished after 698 ms
+[         3 containers found      ]
+[         0 containers skipped    ]
+[         3 containers started    ]
+[         0 containers aborted    ]
+[         3 containers successful ]
+[         0 containers failed     ]
+[        10 tests found           ]
+[         0 tests skipped         ]
+[        10 tests started         ]
+[         0 tests aborted         ]
+[        10 tests successful      ]
+[         0 tests failed          ]
+
+-------------------------------------------------
+-------------------------------------------------
+Starting audit...
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/BoundedMoveStrategy.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/MoveStrategy.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/SimpleMoveStrategy.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/BoxedShape.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/CarShape.java:8: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/CompoundShape.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /private/var/folders/g7/qybzp7ms4cdf2_8y3rrxt16r0000gp/T/tmp.3F5ScKMM/MoveableIcon.java:7: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 7 errors.
+--------------------------------------------------
+Submitted files other than Java or images
+scores.txt
+--------------------------------------------------
+Look at /Users/shreyagangishetty/Documents/CS151/repos/sevencanc/hw6/screencapture.jpg
+--------------------------------------------------
+commit bdfebdfd2169a8812757eedd5e51a6098b1d97ae
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Mar 14 01:59:32 2019 -0700
+
+    Final
+
+:100644 100644 5c4cbce 0d0514d M	hw6/AnimationTester.java
+:100644 100644 9d67aa3 548f9ca M	hw6/MoveableIcon.java
+
+commit 2a58d0a3941d5d6db42b735b8417477a14d7223a
+Author: cagansevencan <36283663+cagansevencan@users.noreply.github.com>
+Date:   Thu Mar 14 01:57:51 2019 -0700
+
+    Delete AnimationTester.java
+
+:100644 000000 5c4cbce 0000000 D	hw6/AnimationTester.java
+
+commit be48a8c406105a7e6d7cd03030eea0cd9e2a27fd
+Author: cagansevencan <36283663+cagansevencan@users.noreply.github.com>
+Date:   Thu Mar 14 01:57:41 2019 -0700
+
+    Delete MoveableIcon.java
+
+:100644 000000 9d67aa3 0000000 D	hw6/MoveableIcon.java
+
+commit a408b3dd4e5692128941b25e29cf7b28d7e268de
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Mar 14 01:35:34 2019 -0700
+
+    Final
+
+:000000 100644 0000000 b080f80 A	hw6/Animation.java
+
+commit 84fa89d564107333fd1569fb5814cce9cf0f305a
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Mar 14 01:34:42 2019 -0700
+
+    Added
+
+:000000 100644 0000000 5c4cbce A	hw6/AnimationTester.java
+:000000 100644 0000000 aded8cf A	hw6/BoundedMoveStrategy.java
+:000000 100644 0000000 bf41b97 A	hw6/BoxedShape.java
+:000000 100644 0000000 0b94932 A	hw6/CarShape.java
+:000000 100644 0000000 30a1759 A	hw6/CompoundShape.java
+:000000 100644 0000000 59f3108 A	hw6/MoveStrategy.java
+:000000 100644 0000000 9d67aa3 A	hw6/MoveableIcon.java
+:000000 100644 0000000 247cbe1 A	hw6/MoveableShape.java
+:000000 100644 0000000 d40ae3e A	hw6/ShapeIcon.java
+:000000 100644 0000000 72e587c A	hw6/SimpleMoveStrategy.java
+
+commit dcb36a207393c75103a646b1568ca1de54853e65
+Author: Cay Horstmann <cay.horstmann@sjsu.edu>
+Date:   Wed Mar 13 13:18:36 2019 -0700
+
+    exam1 change
+
+:100644 100644 4895be6 3ec153f M	exam1/scores.txt
+
+commit 6e90699f77fa47b7799bed5d86fdc5b53bb4b308
+Author: Cay Horstmann <cay.horstmann@sjsu.edu>
+Date:   Tue Mar 12 21:03:37 2019 -0700
+
+    Exam1 scores
+
+:000000 100644 0000000 4895be6 A	exam1/scores.txt
+
+commit 801f13716151c16f568efafbe049a21c33b67fd2
+Author: Shreya Gangishetty <sgangishetty@hypergrid.com>
+Date:   Sat Mar 9 19:32:09 2019 -0800
+
+    hw5/scores.txt
+
+:000000 100644 0000000 83689cb A	hw5/scores.txt
