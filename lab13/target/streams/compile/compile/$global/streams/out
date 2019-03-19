@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/caglasevencan/cs151/lab13/app/controllers/HomeController.java:11:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class HashMap[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m    private static HashMap<String, HashMap<String, Integer>> results = new HashMap<>();[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/caglasevencan/cs151/lab13/app/controllers/HomeController.java:11:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class HashMap[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m    private static HashMap<String, HashMap<String, Integer>> results = new HashMap<>();[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/caglasevencan/cs151/lab13/app/controllers/HomeController.java:11:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class HashMap[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m    private static HashMap<String, HashMap<String, Integer>> results = new HashMap<>();[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/caglasevencan/cs151/lab13/app/controllers/HomeController.java:16:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class HashMap[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class controllers.HomeController[0m
+[0m[[0m[31merror[0m] [0m[0m            results.put(problem, new HashMap<>());[0m
