@@ -1,0 +1,10 @@
+default IntSequence removeIf(predicate p)
+{
+return () -> {
+while(true){
+  Integer n = next();
+  if(n == null) return null;
+  if(!p.test(n)) return n;
+  }
+  }
+}
