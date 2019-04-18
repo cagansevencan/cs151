@@ -1,0 +1,1 @@
+It is not a Prototype patter since since they are instances of the same class and they are not cloned as it would be in Prototype pattern. 

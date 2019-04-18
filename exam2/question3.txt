@@ -1,0 +1,6 @@
+Name in Design Pattern | Actual Name
+====================================
+Context                |  Component
+Strategy               |  Icon
+ConcreteStrategy       |  ImageIcon
+doWork()               |  getIconWidth()
