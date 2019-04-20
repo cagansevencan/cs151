@@ -37,7 +37,7 @@ Make them implement common interface (max. 2 points):0
 Any call to interface method polymporphic (max. 3 points):0
 There are already three different implementations with the same public interface.
 
-Multiple git commits (max. 4 points):0
+Multiple git commits (max. 4 points):2
 
 commit 3837c8cb3bb46a417204f4e7f79d4402bdb4b78e
 Author: Cagan Sevencan <cagansvncn@gmail.com>
