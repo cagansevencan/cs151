@@ -1,0 +1,28 @@
+#!/bin/bash
+
+TEMPDIR=$(mktemp -d)
+
+cp *.js $TEMPDIR
+cp $SOLUTION/{badhashset.js,package.json,horstmann.test.js} $TEMPDIR
+
+cd $TEMPDIR
+echo There should be no error messages here
+standard hashset.js
+echo "-------------------------------------------------"
+
+echo These test cases should pass
+jest horstmann.test.js
+
+echo "-------------------------------------------------"
+cat hashset.test.js
+echo "-------------------------------------------------"
+
+echo These test cases should pass
+jest hashset.test.js
+cp $SOLUTION/badhashset.js hashset.js
+echo One or more test cases should now fail
+jest hashset.test.js
+
+echo --------------------------------------------------
+
+git whatchanged --since="7 days ago"

@@ -1,0 +1,6 @@
+standard passes hashset.js (max. 3, -1 per error): 
+horstmann.test.js (max. 9, -1 per error):
+Student tests three scenarios from lab 6 (max. 3):
+Student passes their own test cases (max. 2):
+At least one student test fails with buggy hashset.js (max. 2):
+At least 3 git checkins (max 3): 
