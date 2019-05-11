@@ -1,0 +1,101 @@
+Student: sevencanc
+Problem 1
+
+An inheritance relationship (max. 2 points): 
+An 1 : n aggregation (max. 2 points): 
+An aggregation that is not 1 : n (max. 2 points): 
+An attribute (max. 2 points): 
+Dependency, not aggregation or inheritance (max. 2 points): 
+
+Problem 2
+
+findNode on SimpleGraph  (max. 1 point):
+findEdge on SimpleGraph  (max. 1 point):
+getSelectedTool on Toolbar  (max. 1 point):
+getBounds on CircleNode  (max. 1 point):
+repaint on GraphPanel (max. 1 point):
+getBounds on self (max. 1 point): 
+getBounds on SimpleGraph (max. 1 point):
+draw on SimpleGraph (max. 1 point):
+getBounds on CircleNode (max. 1 point):
+drawGrabber  (max. 1 point): 
+
+Problem 3
+
+Strategy
+
+Context                | Animation     (max. 2 points): 
+Strategy               | MoveStrategy  (max. 2 points): 
+ConcreteStrategy       | e.g. BoundedMoveStrategy  (max. 2 points): 
+doWork()               | process       (max. 2 points): 
+
+Problem 4
+
+Problem 4
+
+text property  (max. 2 points):
+draw draws string, line  (max. 3 points):
+contains tests line, string (max. 3 points):
+Prototype (max. 2 points): 
+
+Problem 5
+
+Prototype is Stroke (max. 2 points):
+Creator is LineStyle (max. 2 points):
+ConcretePrototype are BasicStroke (max. 2 points):
+cloning dealbreaker, ok for immutable (max. 2 points):
+
+Multiple git commits (max. 4 points): 
+
+commit b4775d15164c2dd486e05e3570ce3aebd09c4c1f
+Author: Cay Horstmann <cay.horstmann@sjsu.edu>
+Date:   Sat Apr 20 08:48:00 2019 +0200
+
+    scores.txt
+
+:100644 100644 3ec153f 6a15b0c M	exam1/scores.txt
+
+commit dc0b51490ac45def36501bd16eb3fc547a24fc8e
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Apr 18 16:22:23 2019 -0700
+
+    Added
+
+:000000 100644 0000000 851237f A	exam2/problem4.java
+:000000 100644 0000000 e386f4d A	exam2/problem5.txt
+:000000 100644 0000000 ff62931 A	exam2/question3.txt
+
+commit e6c5733d5d81bcb279aeb8686a2cfa2ecfa8314c
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Apr 18 16:07:29 2019 -0700
+
+    Added
+
+:100644 100644 210f2b1 8af3dfd M	hw6/.idea/workspace.xml
+
+commit 2a60812977a394ddfedf26f61a77a8c508d976e6
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Apr 18 15:52:20 2019 -0700
+
+    Added
+
+:000000 100644 0000000 8ed575a A	exam2/classes.png
+:000000 100644 0000000 8c3e77e A	exam2/sequence.png
+
+commit 7000d1ed0c2c8e1959b34401247bace549b726c4
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Apr 18 15:28:32 2019 -0700
+
+    First one added
+
+:100644 100644 834d0f7 210f2b1 M	hw6/.idea/workspace.xml
+
+commit 70b36934fd5c2da5d7d1ca936403fff24ebd02df
+Author: Cagan Sevencan <cagansvncn@gmail.com>
+Date:   Thu Apr 18 15:00:39 2019 -0700
+
+    Added
+
+:100644 100644 6fe0955 834d0f7 M	hw6/.idea/workspace.xml
+:000000 100644 0000000 778f5fa A	lab12/.idea/misc.xml
+:100644 100644 8f3e3ad a399f82 M	lab12/.idea/workspace.xml
