@@ -1,51 +1,55 @@
 Student: sevencanc
 Problem 1
 
-An inheritance relationship (max. 2 points): 
-An 1 : n aggregation (max. 2 points): 
-An aggregation that is not 1 : n (max. 2 points): 
-An attribute (max. 2 points): 
-Dependency, not aggregation or inheritance (max. 2 points): 
+An inheritance relationship (max. 2 points): 2 
+An 1 : n aggregation (max. 2 points): 0 
+No *
+An aggregation that is not 1 : n (max. 2 points): 0
+Node doesn't HAVE 2 AbstractEdge
+An attribute (max. 2 points): 0
+Dependency, not aggregation or inheritance (max. 2 points): 2
 
 Problem 2
 
-findNode on SimpleGraph  (max. 1 point):
-findEdge on SimpleGraph  (max. 1 point):
-getSelectedTool on Toolbar  (max. 1 point):
-getBounds on CircleNode  (max. 1 point):
-repaint on GraphPanel (max. 1 point):
-getBounds on self (max. 1 point): 
-getBounds on SimpleGraph (max. 1 point):
-draw on SimpleGraph (max. 1 point):
-getBounds on CircleNode (max. 1 point):
-drawGrabber  (max. 1 point): 
+findNode on SimpleGraph  (max. 1 point):1
+findEdge on SimpleGraph  (max. 1 point):0
+getSelectedTool on Toolbar  (max. 1 point):0
+getBounds on CircleNode  (max. 1 point):0
+repaint on GraphPanel (max. 1 point):0
+getBounds on self (max. 1 point): 0
+getBounds on SimpleGraph (max. 1 point):0
+draw on SimpleGraph (max. 1 point):0
+getBounds on CircleNode (max. 1 point):0
+drawGrabber  (max. 1 point): 0
 
 Problem 3
 
 Strategy
 
-Context                | Animation     (max. 2 points): 
-Strategy               | MoveStrategy  (max. 2 points): 
-ConcreteStrategy       | e.g. BoundedMoveStrategy  (max. 2 points): 
-doWork()               | process       (max. 2 points): 
+Context                | Animation     (max. 2 points): 0
+Strategy               | MoveStrategy  (max. 2 points): 0
+ConcreteStrategy       | e.g. BoundedMoveStrategy  (max. 2 points):0 
+doWork()               | process       (max. 2 points): 0
 
 Problem 4
 
 Problem 4
 
-text property  (max. 2 points):
-draw draws string, line  (max. 3 points):
-contains tests line, string (max. 3 points):
-Prototype (max. 2 points): 
+text property  (max. 2 points): 0
+draw draws string, line  (max. 3 points): 0
+contains tests line, string (max. 3 points): 0
+Prototype (max. 2 points): 0
+
+No useful work
 
 Problem 5
 
-Prototype is Stroke (max. 2 points):
-Creator is LineStyle (max. 2 points):
-ConcretePrototype are BasicStroke (max. 2 points):
-cloning dealbreaker, ok for immutable (max. 2 points):
+Prototype is Stroke (max. 2 points):0
+Creator is LineStyle (max. 2 points):0
+ConcretePrototype are BasicStroke (max. 2 points):0
+cloning dealbreaker, ok for immutable (max. 2 points):2
 
-Multiple git commits (max. 4 points): 
+Multiple git commits (max. 4 points): 0
 
 commit b4775d15164c2dd486e05e3570ce3aebd09c4c1f
 Author: Cay Horstmann <cay.horstmann@sjsu.edu>
