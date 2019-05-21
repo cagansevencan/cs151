@@ -53,10 +53,9 @@ class Graph {
   }
   add(n) {
     const p = { x: n.getBounds().x, y: n.getBounds().y }
-    public boolean add(Node n, Point2D p)
-   {
-      boolean accepted = false;
-      boolean insideANode = false;
+
+      Boolean accepted = false
+      Boolean insideANode = false
       for (int i = nodes.size() - 1; i >= 0 && !accepted; i--)
       {
          Node parent = (Node)nodes.get(i);
@@ -70,9 +69,6 @@ class Graph {
          return false;
       nodes.add(n);
       return true;
-   }
-
-
     this.nodes.push(n)
 
   }
