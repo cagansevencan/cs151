@@ -61,8 +61,45 @@ class Graph {
     for (const n of this.nodes) {
       n.draw()
     }
+    for (const w of this.edges) {
+      e.draw()
+    }
+  }
+connect(e, p1, p2)
+{
+  const n1 = this.findNode(p1)
+  const n2 = this.findNode(p2)
+  if (n1 !== undefined && n2 !== undefined) {
+    e.connect(n1, n2)
+    this.edges.push(e)
+    return true
+  }
+  return false
+}
+}
+
+function center(rect){
+  return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2 }
+}
+
+function createLineEdge(){
+  let start = undefined
+  let end = undefined
+  return{
+    connect: (s, e) => {
+      start = s
+      end = e
+    },
+    draw: () => {
+      const panel = document.getElementById('graphpanel')
+      const line = document.createElementNS('http://www.w3.org/2000/svg', 'line')
+      let p1 = center(start.getBounds())
+      let p2 = center(end.getBounds())
+
+    }
   }
 }
+
 
 document.addEventListener('DOMContentLoaded', function () {
   const graph = new Graph()
@@ -71,7 +108,9 @@ document.addEventListener('DOMContentLoaded', function () {
   graph.add(n1)
   graph.add(n2)
   graph.draw()
-
+  const e = createLineEdge()
+  graph.connect(e, { x: 20, y: 20 }, { x: 40, y: 40 })
+  
   function mouseLocation(event) {
     var rect = panel.getBoundingClientRect();
     return {
@@ -96,6 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let dragStartPoint = undefined
   let dragStartBounds = undefined
+
   const panel = document.getElementById('graphpanel')
   panel.addEventListener('mousedown', event => {
     let mousePoint = mouseLocation(event)
