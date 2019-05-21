@@ -1,0 +1,1 @@
+It seems that the node is not completely free since we append it to a child right in panel. We can change draws functionality by adding a methods such as setColor, getColor and clone methods as well. 
